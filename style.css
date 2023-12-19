@@ -1,0 +1,87 @@
+@import url('http//fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1{
+    font-size: 5em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://imgs.search.brave.com/L1KxKr628LoAxzhgdt3moxMfkvdZaKC1I7kWvubstVw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/Ny8wMy8yMC8xNy9j/b2xvcmZ1bC0yNDY4/ODc0XzY0MC5qcGc");
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 6.7s linear infinite;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+
+}
+
+@keyframes text {
+    from {background-position: 0% 50%;}
+    to {background-position: 100% 100%}
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    box-shadow: rgba(50,50,93,0.25)0px 6px 12px
+                -2px, rgba(0,0,0.3) 0px 3px 7px -3px;
+    background: white;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    font-family: 500;
+    color: black;
+    font-weight: 600;  
+}
+
+.enter_text{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    border: 1px solid #514CE1;
+    border-radius: 5px;
+}
+
+.title::before{
+    content: "Enter text";
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 23%;
+    color: black;
+    font-size: 15px;
+    margin-left: -40px;
+    font-weight: 500;
+}
+
+.speak_btn{
+    color: white;
+    background-color: #514CE1;
+    height: 40px;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
